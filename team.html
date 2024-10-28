@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Manup Template">
+    <meta name="keywords" content="Manup, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anveshan 2K23</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style type="text/css">
+        ul {
+            list-style: outside none none;
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .mb50 {
+            margin-bottom: 50px;
+        }
+
+        body {
+            margin-top: 20px;
+            background: #eee;
+        }
+
+        .our-team {
+            overflow: hidden;
+            border-radius: 50%;
+            position: relative;
+            box-shadow: 0 10px 40px -10px rgba(0, 64, 128, .2);
+        }
+
+        .our-team img {
+            width: 100%;
+            height: auto;
+            position: relative;
+            right: 0;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }
+
+        .our-team:hover img {
+            right: 60%;
+        }
+
+        .our-team .team-content {
+            width: 80%;
+            height: 100%;
+            background: #fcfcfc;
+            padding: 20% 30px 0;
+            position: absolute;
+            top: 0;
+            right: -80%;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }
+
+        .our-team:hover .team-content {
+            right: 0;
+        }
+
+        .our-team .title {
+            font-size: 15px;
+            color: #010352;
+            margin: 0 0 5px 0;
+            font-weight: 500;
+        }
+
+        .our-team .post {
+            display: block;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+            width: 70px;
+
+        }
+
+        .our-team .description {
+            font-size: 14px;
+            color: #191b26;
+        }
+
+        .our-team .social {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .our-team .team-title h3 {
+            font-size: 5px;
+        }
+
+        .our-team .social li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .our-team .social li:last-child {
+            margin-right: 0;
+        }
+
+        .social {
+            height: 48px;
+            width: 80px;
+        }
+
+        .our-team .social li a {
+            display: block;
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            font-size: 12px;
+            color: #fff;
+            border-radius: 4px;
+            text-align: center;
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+            border: 1px solid #eee;
+        }
+
+        .our-team .social li a:hover {
+            color: #fff;
+        }
+
+        .our-team .social li a.fa-twitter {
+            background: #1DA1F2;
+            border: 1px solid #1DA1F2;
+        }
+
+        .our-team .social li a.fa-linkedin {
+            background: #0077b5;
+            border: 1px solid #0077b5;
+        }
+
+        .our-team .social li a.fa-instagram {
+            background: #962fbf;
+            border: 1px solid #962fbf;
+        }
+
+        .our-team .social li a.fa-github {
+            background: #333;
+            border: 1px solid #333;
+        }
+
+        @media only screen and (max-width: 990px) {
+            .our-team {
+                margin-bottom: 10px;
+            }
+
+            .social {
+                height: 31.200px;
+                width: 223.512px;
+            }
+
+            .our-team .social li a {
+                display: block;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-size: 28px;
+                color: #fff;
+                border-radius: 4px;
+                text-align: center;
+                -webkit-transition: all 0.3s ease-in-out 0s;
+                transition: all 0.3s ease-in-out 0s;
+                border: 1px solid #eee;
+            }
+
+            .our-team .title {
+                font-size: 30px;
+            }
+
+            .our-team .post {
+                font-size: 15px;
+            }
+        }
+
+        @media only screen and (max-width: 360px) {
+            .team-content {
+                padding: 15% 15px 0;
+            }
+
+            .our-team .social li {
+                margin-right: 0;
+            }
+
+            .col-lg-2 .col-sm-3 .col-xs-6 {
+                position: relative;
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+
+            .our-team .title {
+                font-size: 30px;
+            }
+
+            .our-team .post {
+                font-size: 15px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .section-title {
+            margin-bottom: 60px;
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+
+        .section-title h2 {
+            font-size: 45px;
+        }
+
+        .team-category {
+            color: black;
+            font-size: 2rem;
+            text-align: center;
+            padding-top: 1rem;
+        }
+
+        #general .team-category {
+            color: white;
+        }
+
+        hr {
+            width: 10%;
+            height: 5px;
+            border: none;
+            background: rgb(188, 1, 1);
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .team-box {
+            margin: 0;
+            padding: 2rem 1rem;
+        }
+
+        .team-box .team-category {
+            color: black;
+            font-size: 2rem;
+            text-align: center;
+            padding-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section header-normal">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+
+                        <li><a href="#">Events</a>
+                            <ul class="dropdown">
+                                <li><a href="./Model.html">Model Competition</a></li>
+                                <li><a href="./Quiz.html">Quiz Competition</a></li>
+                                <li><a href="./Idea.html">Idea Presentation</a></li>
+                                <li><a href="./Poster.html">Poster Competition</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./schedule.html">Schedule</a></li>
+                        <li><a href="./team.html">Team</a></li>
+                        <li><a href="./contact.html">Contacts</a></li>
+                        <li><a href="./about-us.html">About</a></li>
+                    </ul>
+                </nav>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7usEWH_5YBm0bpSMAWEpsu5CmNqtuVsPYWkdZKV1KnJDk_A/viewform?pli=1"
+                    class="primary-btn top-btn"><i class="fa fa-user"></i> Register</a>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <div class="whos-speaking-area speakers pad100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <div class="title-text mb50">
+                            <h2>People behind Anveshan</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--members section-->
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+            <section id="team" class="team-area section-padding">
+                <div class="container">
+                    <div class="hero-cont">
+                        <h2 class="team-category">The Faculty</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                                data-wow-delay="0.2s" data-wow-offset="0"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <div class="our-team">
+                                    <img src="https://drive.google.com/thumbnail?id=1-BcauqNyrR0XEyMPcBoe0D8IGhqTj2sf"
+                                        43alt>
+                                    <div class="team-content">
+                                        <h3 class="title">Upinder Dhar</h3>
+                                        <span class="post">Vice Chancellor</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                                data-wow-delay="0.2s" data-wow-offset="0"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <div class="our-team">
+                                    <img src="https://drive.google.com/thumbnail&id=1-EvibdZbfGcTtYDZj5V7snSHipD3ktW5"
+                                        alt>
+                                    <div class="team-content">
+                                        <h3 class="title">Dr. Asmita Sharma </h3>
+                                        <span class="post">Event Coordinator</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                                data-wow-delay="0.2s" data-wow-offset="0"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <div class="our-team">
+                                    <img src="https://drive.google.com/thumbnail&id=1-EvibdZbfGcTtYDZj5V7snSHipD3ktW5"
+                                        alt>
+                                    <div class="team-content">
+                                        <h3 class="title">Dr. Tirunima Patle </h3>
+                                        <span class="post">Event Co-Coordinator</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <section id="team" class="team-area section-padding">
+            <div class="container">
+                <div class="hero-cont">
+                    <h2 class="team-category">Student Coordinator</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                            data-wow-delay="0.2s" data-wow-offset="0"
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="our-team">
+                                <img src="https://drive.google.com/thumbnail&id=1-KUVRb8Y_9LilVoc07dyk4u87l0tpgnT" alt>
+                                <div class="team-content">
+                                    <h3 class="title">Yash Mulani</h3>
+                                    <span class="post">Student Coordinator</span>
+                                    <ul class="social">
+                                        <li><a class="fa fa-linkedin"
+                                                href="https://www.linkedin.com/in/yash-mulani26/"></a></li>
+                                        <li><a class="fa fa-instagram"
+                                                href="https://www.instagram.com/mr.yash.mulani__/?utm_source=ig_web_button_share_sheet"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                            data-wow-delay="0.2s" data-wow-offset="0"
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="our-team">
+                                <img src="https://drive.google.com/thumbnail?id=1Xj8B9cnUD2wHtGX2OkUADPUvrcIg6eJy" alt>
+                                <div class="team-content">
+                                    <h3 class="title">Akshat Thakur</h3>
+                                    <span class="post">Co-Coordinator</span>
+                                    <ul class="social">
+                                        <li><a class="fa fa-linkedin"
+                                                href="https://www.linkedin.com/in/divyanshu-singh-501301244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                                        </li>
+                                        <li><a class="fa fa-instagram"
+                                                href="https://instagram.com/divyanshusingh42?igshid=MzNlNGNkZWQ4Mg=="></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                            data-wow-delay="0.2s" data-wow-offset="0"
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="our-team">
+                                <img src="https://drive.google.com/thumbnail?id=1zEUN2AANObUP_EdpCSWZOD1w1rOW_mIC" alt>
+                                <div class="team-content">
+                                    <h3 class="title">Aditya Gupta</h3>
+                                    <span class="post">Co-Coordinator</span>
+                                    <ul class="social">
+                                        <li><a class="fa fa-linkedin"
+                                                href="https://www.linkedin.com/in/vallabh-vijayvargiya-1bbb44228/"></a>
+                                        </li>
+                                        <li><a class="fa fa-instagram"
+                                                href="https://www.instagram.com/greatwhite__9"></a></li>
+                                        <li><a class="fa fa-twitter" href="https://www.twitter.com/greatwhite__9"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                            data-wow-delay="0.2s" data-wow-offset="0"
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="our-team">
+                                <img src="https://drive.google.com/thumbnail?id=1JqTMFDskkOlxDORYzqyw6N_IPSGX0nVB" alt>
+                                <div class="team-content">
+                                    <h3 class="title">Durgesh Suryvanshi</h3>
+                                    <span class="post">Co-Coordinator</span>
+                                    <ul class="social">
+                                        <li><a class="fa fa-linkedin"
+                                                href="https://www.linkedin.com/in/varun-verma-9020b5226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                                        </li>
+                                        <li><a class="fa fa-instagram"
+                                                href="https://instagram.com/cyberpunk2077s?igshid=YTQwZjQ0NmI0OA=="></a>
+                                        </li>
+                                        <li><a class="fa fa-twitter" href="https://twitter.com/VarunVe64989616"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="team" class="team-area section-padding">
+            <div class="container">
+                <div class="hero-cont">
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-8 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                            data-wow-delay="0.2s" data-wow-offset="0"
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="our-team">
+                                <img src="https://drive.google.com/thumbnail?id=1P1mAudWWbQrJ8wwRr9PvPZBsJN40Uka0"
+                                        alt>
+                                    <div class="team-content">
+                                        <h3 class="title">Lakshita Sharma</h3>
+                                        <span class="post">Co-Coordinator</span>
+                                    <ul class="social">
+                                        <li><a class="fa fa-linkedin"
+                                                href="https://www.linkedin.com/in/yash-mulani26/"></a></li>
+                                        <li><a class="fa fa-instagram"
+                                                href="https://www.instagram.com/mr.yash.mulani__/?utm_source=ig_web_button_share_sheet"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <h2 class="team-category">Organizing Committee</h2>
+        <hr>
+        <div class="row">
+            <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                data-wow-delay="0.4s" data-wow-offset="0"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                <div class="our-team">
+                    <img src="https://drive.google.com/thumbnail&id=1VEDRnj6YxxoAEuOhTtDgAGB4ZfMzUVH6" alt>
+                    <div class="team-content">
+                        <h3 class="title">Yash Mulani</h3>
+                        <span class="post">Lead of Execution Team</span>
+                        <ul class="social">
+                            <li><a class="fa fa-instagram"
+                                    href="https://instagram.com/mr.yash.mulani__?igshid=OGQ5ZDc2ODk2ZA=="></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                data-wow-delay="0.4s" data-wow-offset="0"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                <div class="our-team">
+                    <img src="https://drive.google.com/thumbnail&id=1F3xLHEZn_UC0Hi5ndL0Bto3MKkpCp4u-" alt>
+                    <div class="team-content">
+                        <h3 class="title">Sulekh Niwal</h3>
+                        <span class="post">Lead of Web Development</span>
+                        <ul class="social">
+                            <li><a class="fa fa-linkedin"
+                                    href="https://www.linkedin.com/in/deshpande-harsh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                            </li>
+                            <li><a class="fa fa-instagram"
+                                    href="https://instagram.com/glazz.tv?igshid=MTk0NTkyODZkYg=="></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                data-wow-delay="0.2s" data-wow-offset="0"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <div class="our-team">
+                    <img src="https://drive.google.com/thumbnail&id=1KSiuRP-tMYghUucOXexyHvf7R8PuBS8s" alt>
+                    <div class="team-content">
+                        <h3 class="title">Hemant Soni</h3>
+                        <span class="post">Lead of Quiz Competition</span>
+                        <ul class="social">
+                            <li><a class="fa fa-linkedin"
+                                    href="https://www.linkedin.com/in/hemant-soni-5210b7226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                            </li> <!--linkedin-->
+                            <li><a class="fa fa-instagram"
+                                    href="https://instagram.com/h_e_m_a_n_t_551?igshid=MzMyNGUyNmU2YQ=="></a></li>
+                            <!--insta-->
+                            <li><a class="fa fa-twitter"
+                                    href="https://x.com/h_soni95298?t=vFXTrMJFmIE8L9SuWTeUBg&s=09"></a></li>
+                            <!--twitter-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                data-wow-delay="0.3s" data-wow-offset="0"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <div class="our-team">
+                    <img src="https://drive.google.com/thumbnail&id=1Xj8B9cnUD2wHtGX2OkUADPUvrcIg6eJy" alt>
+                    <div class="team-content">
+                        <h3 class="title">Akshat Thakur</h3>
+                        <span class="post">Lead of Promotion</span>
+                        <ul class="social">
+                            <li><a class="fa fa-linkedin"
+                                    href="https://www.linkedin.com/in/akshat-thakur-7b362728b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                            </li> <!--LINKEDIN-->
+                            <li><a class="fa fa-instagram"
+                                    href="https://instagram.com/akshshshat?igshid=OGQ5ZDc2ODk2ZA=="></a></li>
+                            <!--INSTA-->
+                            <li><a class="fa fa-twitter"
+                                    href="https://twitter.com/Akshshat?t=1Houq3uZwVvbNNUyiD3qEA&s=09"></a></li>
+                            <!--TWITTER-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                data-wow-delay="0.4s" data-wow-offset="0"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                <div class="our-team">
+                    <img src="https://drive.google.com/uc?thumbnail&id=1P1mAudWWbQrJ8wwRr9PvPZBsJN40Uka0" alt>
+                    <div class="team-content">
+                        <h3 class="title">Lakshita Sharma</h3>
+                        <span class="post">Lead of Decoration</span>
+                        <ul class="social">
+
+                            <li><a class="fa fa-instagram"
+                                    href="https://instagram.com/lakshitaa_2?igshid=OGQ5ZDc2ODk2ZA=="></a></li>
+                            <!--INSTA-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                data-wow-delay="0.5s" data-wow-offset="0"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <div class="our-team">
+                    <img src="https://drive.google.com/thumbnail&id=1IKkjbYvll48V91OAjw_jcgL4bR2AXrJJ" alt>
+                    <div class="team-content">
+                        <h3 class="title">Sanskar Choubey</h3>
+                        <span class="post">Lead of Logistics</span>
+                        <ul class="social">
+                            <li><a class="fa fa-linkedin"
+                                    href="https://www.linkedin.com/in/sanskarchoubey14?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                            </li> <!--LINKEDIN-->
+                            <li><a class="fa fa-instagram"
+                                    href="https://instagram.com/sanskarchoubey__?igshid=NGVhN2U2NjQ0Yg=="></a></li>
+                            <!--INSTA-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s"
+                data-wow-offset="0"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <div class="our-team">
+                    <img src="https://drive.google.com/thumbnail&id=1rkFwPXmvaJlrqOQo9utG04G0CSPtibYE" alt>
+                    <div class="team-content">
+                        <h3 class="title">Mayank Matkar</h3>
+                        <span class="post">Lead of Promotion Team</span>
+                        <ul class="social">
+                            <li><a class="fa fa-instagram"
+                                    href="https://instagram.com/mayank_matkar?igshid=YTQwZjQ0NmI0OA=="></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <br>
+    <br>
+
+    <!--volunteer SECTION-->
+    <section id="team" class="team-area section-padding">
+        <div class="container">
+            <h2 class="team-category">Volunteers</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1zEUN2AANObUP_EdpCSWZOD1w1rOW_mIC" alt>
+                        <div class="team-content">
+                            <h3 class="title">Aditya Gupta</h3>
+                            <span class="post">Anchor</span>
+                            <ul class="social">
+                                <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/addy007"></a></li>
+                                <!--linkedin-->
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/__addy.exe__?igshid=MTNiYzNiMzkwZA=="></a></li>
+                                <!--insta-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp center-block" data-wow-duration="1s"
+                    data-wow-delay="0.3s" data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1v4Gx76ot-9xpzIGZb_KmGgmAdU3c0luZ" alt>
+                        <div class="team-content">
+                            <h3 class="title">Anvisha Trivedi</h3>
+                            <span class="post">Anchor</span>
+                            <ul class="social">
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/anvisha_16_?igshid=NzZlODBkYWE4Ng=="></a></li>
+                                <!--insta-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1ik4V8f9NJcCgVHf9YfJ0jhjgP8Dp0_um" alt>
+                        <div class="team-content">
+                            <h3 class="title">Unnati Sahu</h3>
+                            <span class="post">Anchor</span>
+                            <ul class="social">
+                                <li><a class="fa fa-linkedin"
+                                        href="https://www.linkedin.com/in/unnati-sahu-7a3170271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                                </li>
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/unns_21?igshid=OGQ5ZDc2ODk2ZA=="></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1ZCesxOfNToMgT12VkK9gpqCjReU10QY6" alt>
+                        <div class="team-content">
+                            <h3 class="title">Sulekh Niwal </h3>
+                            <span class="post">Promotion team</span>
+                            <ul class="social">
+                                <li><a class="fa fa-linkedin"
+                                        href="https://www.linkedin.com/in/sulekh-niwal-9028071a9?trk=contact-info"></a>
+                                </li> <!--linkedin-->
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/sulekhniwal?igshid=OGQ5ZDc2ODk2ZA=="></a></li>
+                                <!--insta-->
+                                <li><a class="fa fa-twitter" href="https://twitter.com/NiwalSulekh"></a></li>
+                                <!--twitter-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1yckW7pVsK-VIzKL0kdBXjWkrjQ_0DVY_" alt>
+                        <div class="team-content">
+                            <h3 class="title">Jaini Jain</h3>
+                            <span class="post">Decoration Team</span>
+                            <ul class="social">
+
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/jjainijain22?igshid=NzZlODBkYWE4Ng=="></a></li>
+                                <!--insta-->
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1DHPh_1e2XF0BsAq5LI8039amKUASuizB" alt>
+                        <div class="team-content">
+                            <h3 class="title">Rahul Chouhan</h3>
+                            <span class="post">Registration Team</span>
+                            <ul class="social">
+                                <li><a class="fa fa-linkedin"
+                                        href="https://www.linkedin.com/in/rahul-chouhan-17283a280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                                </li> <!--linkedin-->
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/_rahulchouhan36?igshid=OGQ5ZDc2ODk2ZA=="></a></li>
+                                <!--insta-->
+                                <li><a class="fa fa-twitter"
+                                        href="https://x.com/tylerdurde15887?t=iFeE3_y6kOTv0dtYHMkE6A&s=01"></a></li>
+                                <!--twitter-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1JqTMFDskkOlxDORYzqyw6N_IPSGX0nVB" alt>
+                        <div class="team-content">
+                            <h3 class="title">Durgesh Suryvanshi</h3>
+                            <span class="post">Promotion Team</span>
+                            <ul class="social">
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/durgeshsuryvanshi_5?igshid=OGQ5ZDc2ODk2ZA=="></a>
+                                </li> <!--insta-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=14knZ8ObPTGJ8SdBeGTEYaPVxWsXrgExc" alt>
+                        <div class="team-content">
+                            <h3 class="title">Renee Prasad</h3>
+                            <span class="post">Promotion team</span>
+                            <ul class="social">
+                                <li><a class="fa fa-facebook"
+                                        href="https://www.linkedin.com/in/renee-prasad-0063a3215?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                                </li> <!--LINKEDIN-->
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1-d9JgNbiBFjU9bGsmo99tLeTUwXWrpjD" alt>
+                        <div class="team-content">
+                            <h3 class="title">Alisha Gehlot</h3>
+                            <span class="post">Registration Team</span>
+                            <ul class="social">
+                                <li><a class="fa fa-linkedin"
+                                        href="https://www.linkedin.com/in/alisha-gehlot-69baa9284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"></a>
+                                </li> <!--linkedin-->
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/alishaagehlot?igshid=YTQwZjQ0NmI0OA=="></a></li>
+                                <!--insta-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-3 col-xs-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"
+                    data-wow-offset="0"
+                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="our-team">
+                        <img src="https://drive.google.com/thumbnail&id=1jN9hL6cw3_ISxT2A0DZDgvo4UUpc0Qn5" alt>
+                        <div class="team-content">
+                            <h3 class="title">Krishna Parakh</h3>
+                            <span class="post">Promotion team</span>
+                            <ul class="social">
+                                <li><a class="fa fa-instagram"
+                                        href="https://instagram.com/krishhhhh16?igshid=MzMyNGUyNmU2YQ=="></a></li>
+                                <!--insta-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-text">
+                        <div class="ft-logo">
+                            <a href="#" class="footer-logo"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="./schedule.html">Schedule</a></li>
+                            <li><a href="./team.html">Team</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./about-us.html">About</a></li>
+                        </ul>
+                        <div class="copyright-text">
+                            <p>
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | by <a
+                                    href="https://www.svvv.edu.in/" target="_blank">SVVV</a>
+                            </p>
+                        </div>
+                        <div class="ft-social">
+                            <a href="https://www.linkedin.com/in/anveshan-svvv/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://instagram.com/anveshan_svvv?igshid=MXBxNm1uYnFxcXJ4eg=="><i
+                                    class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+
+    </script>
+</body>
+
+</html>
