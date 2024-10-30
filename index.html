@@ -13,8 +13,6 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="path/to/your/countdown-plugin.js"></script>
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -98,11 +96,22 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="cd-timer" id="countdown">
-                        <script>
-                            $('#countdown').countdown('2023/12/31', function(event) {
-                                $(this).html(event.strftime('%D days %H:%M:%S'));
-                            });
-                        </script>
+                        <div class="cd-item">
+                            <span>15</span>
+                            <p>Days</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>8</span>
+                            <p>Hours</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>55</span>
+                            <p>Minutes</p>
+                        </div>
+                        <div class="cd-item">
+                            <span>50</span>
+                            <p>Seconds</p>
+                        </div>
                     </div>
                 </div>
             </div>
